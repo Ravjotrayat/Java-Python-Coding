@@ -1,5 +1,5 @@
 import java.util.*;
-public class A2
+public class Sum_of_2_no
 {
    public static void main(String args[])
 {
