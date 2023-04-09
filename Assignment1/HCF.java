@@ -1,5 +1,5 @@
 import java.util.*;
-public class A4
+public class HCF
 {
    public static void main(String args[])
 {
