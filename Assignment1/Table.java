@@ -1,5 +1,5 @@
 import java.util.*;
-public class A3
+public class Table
 {
    public static void main(String args[])
 {
