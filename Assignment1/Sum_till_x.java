@@ -1,5 +1,5 @@
  import java.util.*;
-public class A5
+public class Sum_till_x
 {   
    public static void main(String args[])
 {
@@ -10,7 +10,6 @@ while(!ch.equals("x"))
 {
     System.out.println("Enter a num or x to quit");
     ch=sc.next();
-
     if(!ch.equals("x"))
    {
         int n = Integer.parseInt(ch);
