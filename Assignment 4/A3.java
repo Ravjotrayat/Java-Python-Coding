@@ -1,7 +1,7 @@
 //   Write a program to print the factorial of a number
 //   by defining a method named 'Factorial'
 import java.util.*;
-public class A3
+public class Factorial_function
 {
   public static void main(String args[])
    {
@@ -10,7 +10,6 @@ public class A3
   n=sc.nextInt();
     Factorial(n);
 }
-
 public static void Factorial(long n)
 {
      long f=1;
