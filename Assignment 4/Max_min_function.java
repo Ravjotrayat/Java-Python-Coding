@@ -2,7 +2,7 @@
 //  number respectively among three numbers entered 
 //  by the user.
 import java.util.*;
-public class A1
+public class Max_min_function
 {
   public static void main(String args[])
   {
