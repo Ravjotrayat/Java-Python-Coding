@@ -17,10 +17,10 @@ Assignment 2:
 
 Assignment 3:
 
-            Factors of a Number
-            Take integer inputs till the user enters 0 and print the largest number from all.
-            Count the even number of days in August and print.
-            Calculate Permutation and Combination of the input numbers.
-            Subtract the Product and the Sum of Digits of an Integer.
+            ->Factors of a Number
+            ->Take integer inputs till the user enters 0 and print the largest number from all.
+            ->Count the even number of days in August and print.
+            ->Calculate Permutation and Combination of the input numbers.
+            ->Subtract the Product and the Sum of Digits of an Integer.
              
-            
+           
