@@ -1,6 +1,6 @@
 //  Find Ncr & Npr
 import java.util.*;
-public class A4
+public class Ncr_Pcr
 {
     public static void main(String args[])
    {
