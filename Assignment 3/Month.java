@@ -2,7 +2,7 @@
 // of a given month. Write a program to count the number of 
 //days he can go out in the month of August.
 import java.util.*;
-public class A5
+public class Month
 {
     public static void main(String args[])
    {
