@@ -1,6 +1,6 @@
 //Subtract the Product and Sum of Digits of an Integer
 import java.util.*;
-public class A1
+public class Product_sum
 {
     public static void main(String args[])
    {
