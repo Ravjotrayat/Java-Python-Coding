@@ -1,7 +1,7 @@
 // Define a method to find out if a number is prime or not.
 
 import java.util.*;
-public class A2
+public class Prime_number
 {
   public static void main(String args[])
    {
