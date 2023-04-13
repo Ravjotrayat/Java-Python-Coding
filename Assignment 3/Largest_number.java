@@ -2,7 +2,7 @@
 //  Take integer inputs till the user enters 0 and 
 //  print the largest number from all.
 import java.util.*;
-public class A3
+public class Largest_number
 {
     public static void main(String args[])
    {
