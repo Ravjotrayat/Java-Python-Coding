@@ -28,3 +28,6 @@ Assignment 4:(Functions)
             -> Factorial of a number
             -> Minimum and maximum number for 3 inputs
             -> Prime number
+            -> Prime number between 2 numbers
+            -> Pythagorean Triplet
+            -> Sum of N natural numbers
