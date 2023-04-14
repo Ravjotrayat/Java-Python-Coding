@@ -3,7 +3,7 @@
 //  the square of two numbers is equal to the 
 //  square of the third number).
 import java.util.*;
-public class A4
+public class Pythagorean_triplet
 {
   public static void main(String args[])
    {
