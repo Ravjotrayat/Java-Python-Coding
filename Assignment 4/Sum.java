@@ -1,6 +1,6 @@
 //Write a function that returns the sum of first n natural numbers.
 import java.util.*;
-public class A6
+public class Sum
 {
    public static void main(String args[])
    {

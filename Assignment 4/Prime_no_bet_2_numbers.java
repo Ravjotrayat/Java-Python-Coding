@@ -1,7 +1,7 @@
 //  Write a function that returns all prime numbers between two 
 //  given numbers.
 import java.util.*;
-public class A5
+public class Prime_no_bet_2_numbers
 {
    public static void main(String args[])
    {
