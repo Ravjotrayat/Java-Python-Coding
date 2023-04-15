@@ -31,3 +31,7 @@ Assignment 4:(Functions)
             -> Prime number between 2 numbers
             -> Pythagorean Triplet
             -> Sum of N natural numbers
+
+Assignment 5:Arrays
+
+            -> 
