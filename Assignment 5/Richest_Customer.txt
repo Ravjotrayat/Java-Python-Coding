@@ -1,0 +1,27 @@
+//  Richest Customer Wealth
+import java.util.*;
+public class Richest_Customer
+{
+  public static void main(String args[])
+  {
+    Scanner sc=new Scanner(System.in);
+ int n;
+System.out.println("Enter the limit");
+n=sc.nextInt();
+int arr[][]=new int[n][n];
+int b[]=new int[n];
+System.out.println("Enter the elements in the array");
+for(int i=0;i<n;i++)
+{       int sum=0;
+          for(int j=0;j<n;j++)
+           {  arr[i][j]=sc.nextInt();
+              sum+=arr[i][j];
+             }   
+     b[i] = sum;   
+  }
+for(int i=0;i<n;i++)
+   System.out.print(b[i]+" " );
+}
+}
+
+

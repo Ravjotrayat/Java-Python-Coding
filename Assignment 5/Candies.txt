@@ -1,0 +1,35 @@
+// Kids With the Greatest Number of Candies
+import java.util.*;
+public class Candies
+{
+  public static void main(String args[])
+  {
+   Scanner sc=new Scanner(System.in);    
+int n=0,extra;
+n=sc.nextInt();
+System.out.println("Enter the extra candies");
+extra=sc.nextInt();
+int first[] = new int[n];
+System.out.println("Enter the "+n+" Elements");
+for(int i=0; i<n;i++)
+     first[i]=sc.nextInt();
+int max=0;
+   for(int i=0; i<n;i++)
+  {   
+       if(first[i]>max)
+        max =first[i];
+  }
+   
+List<Boolean> second = new ArrayList<>();
+   for(int i=0; i<n;i++)
+  {
+          if(first[i]+extra < max)
+                 second.add(false);
+        else 
+                 second.add(true);
+    }
+System.out.print(second +" ");
+
+
+}
+}
