@@ -1,6 +1,6 @@
 # Java-Coding
 
-Assignment 1:
+# Assignment 1:
 
             -> HCF
             -> Leap Year
@@ -8,14 +8,14 @@ Assignment 1:
             -> Sum till X
             -> Multiplication Table
             
-Assignment 2:
+# Assignment 2:
               
               -> Addition,Subtraction,Multiplication and Division
               -> Armstrong Number
               -> Fibonacci Number
               -> Palindrome Number
 
-Assignment 3:
+# Assignment 3:
 
             -> Factors of a Number
             -> Take integer inputs till the user enters 0 and print the largest number from all.
@@ -23,7 +23,7 @@ Assignment 3:
             -> Calculate Permutation and Combination of the input numbers.
             -> Subtract the Product and the Sum of Digits of an Integer.
              
-Assignment 4:(Functions)
+# Assignment 4:(Functions)
 
             -> Factorial of a number
             -> Minimum and maximum number for 3 inputs
@@ -32,6 +32,6 @@ Assignment 4:(Functions)
             -> Pythagorean Triplet
             -> Sum of N natural numbers
 
-Assignment 5:Arrays
+# Assignment 5:Arrays
 
-            -> Build Array from Permutation
+            -> [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
