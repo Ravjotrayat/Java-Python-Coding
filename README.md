@@ -34,4 +34,4 @@ Assignment 4:(Functions)
 
 Assignment 5:Arrays
 
-            -> [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
+            -> Build Array from Permutation
