@@ -1,0 +1,64 @@
+// Count Items Matching a Rule
+import java.util.*;
+public class Matching_rule
+{
+  public static void main(String args[])
+  {
+   Scanner sc=new Scanner(System.in);  
+int n;
+n=sc.nextInt();  
+String key,value;
+ArrayList<ArrayList>  third = new  ArrayList<ArrayList>();
+System.out.println("Enter the elements in order(type,color,name)");
+for(int j=0;j<n;j++)
+{  
+ ArrayList<String> first = new ArrayList<String>(); 
+   for(int i=0;i<3;i++)     
+         first.add(sc.next());
+third.add(first);
+}
+
+System.out.println("Enter the rulekey and rulevalue");
+key=sc.next();
+value=sc.next();
+int a=0;
+if(key.equals("type"))
+{     for(int i=0;i<third.size();i++)    
+     { if(third.get(i).get(0).equals(value))
+     a++;}
+}
+else if(key.equals("color"))
+{
+ for(int i=0;i<third.size();i++)    
+     { if(third.get(i).get(1).equals(value))
+     a++;}
+}
+else
+{
+ for(int i=0;i<third.size();i++)    
+    {  if(third.get(i).get(2).equals(value))
+     a++;}
+}
+
+System.out.println("There is only " +a+ " item matching the given rule");
+}
+}
+
+/*
+input = 3
+
+phone
+blue
+pixel
+computer
+silver
+phone
+phone
+gold
+iphone
+
+type
+phone
+
+output = There is only 2 item matching the given rule
+*/

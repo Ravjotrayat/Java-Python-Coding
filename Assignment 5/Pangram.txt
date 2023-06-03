@@ -1,0 +1,18 @@
+//Check if the Sentence Is Pangram
+import java.util.*;
+public class Pangram
+{
+  public static void main(String args[])
+  {
+   Scanner sc=new Scanner(System.in);    
+String sentence;
+sentence=sc.nextLine();
+int flag=0;
+    for(char i ='a'; i <= 'z'; i++)
+    {    if(sentence.indexOf(i)== -1) 
+           { flag=1;
+            break;}
+    }
+        System.out.println(flag==1?"False":"True");
+}
+}

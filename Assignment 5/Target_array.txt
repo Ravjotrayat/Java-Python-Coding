@@ -1,0 +1,37 @@
+// Create Target Array in the Given Order
+import java.util.*;
+public class Target_array
+{
+  public static void main(String args[])
+  {
+   Scanner sc=new Scanner(System.in);    
+int n;
+
+System.out.println("Enter the Limit");
+n=sc.nextInt();
+
+int nums[] =new int[n]; 
+int index []= new int[n];
+int ans[] = new int[n];
+ System.out.println("Enter the numbers");
+for(int i=0;i<n;i++)
+nums[i]=sc.nextInt();
+
+System.out.println("Enter the index number");
+for(int i=0;i<n;i++)
+index[i]=sc.nextInt();   
+
+// int nums[] ={1,2,3,4,0}; 
+// int index []= {0,1,2,3,0};
+ArrayList<Integer> arr = new ArrayList<Integer>();
+for(int i=0;i<n;i++)
+arr.add(index[i],nums[i]);  // __.add("Index where u want to store the number ","Add the number")
+
+for(int i=0;i<n;i++)
+ans[i]=arr.get(i);
+
+ System.out.println("");
+for(int i=0;i<n;i++)
+System.out.print(ans[i]+" ");
+}
+}
