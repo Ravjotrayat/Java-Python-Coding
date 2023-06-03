@@ -14,7 +14,7 @@
 
 -> [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)
 
--> [How Many Numbers Are Smaller Than the Current Number]("https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+-> [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 
 -> []()
 
