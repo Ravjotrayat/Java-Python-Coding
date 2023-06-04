@@ -22,4 +22,8 @@
 
 -> [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
 
+-> [Find the Highest Altitude](https://leetcode.com/problems/count-items-matching-a-rule/)
+
+-> [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
+
 -> []()
