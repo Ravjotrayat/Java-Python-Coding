@@ -1,5 +1,7 @@
 # Try these questions in Leetcode 
 
+To find the solution from above,write the leetcode question name in the search section and every solution contains the Leetcode question heading inside as well.
+
 -> [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 
 -> [Concatenation of Array]()
