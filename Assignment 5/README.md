@@ -28,4 +28,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
 
+-> [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)
+
+-> [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
+
 -> []()
