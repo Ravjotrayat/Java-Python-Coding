@@ -1,0 +1,27 @@
+//Find Numbers with Even Number of Digits
+import java.util.*;
+public class Even_number_of_digits
+{
+  public static void main(String args[])
+  {
+   Scanner sc=new Scanner(System.in);  
+  ArrayList<Integer> aa= new ArrayList<>();
+int f=0;
+System.out.println("Enter the limit");
+  int n=sc.nextInt();
+for(int i=0;i<n;i++)
+  {   aa.add(sc.nextInt());  }
+for(int i=0;i<n;i++)
+{        int c=0;
+       int num=aa.get(i);
+          while(num>0)
+         {
+             num=num/10;
+             c++;
+          }
+ if(c%2==0)
+  { f=f+1;}
+}	
+System.out.println("Numbers of even numbers are : "+ f);
+}
+}
