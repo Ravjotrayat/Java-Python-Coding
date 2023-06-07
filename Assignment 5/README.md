@@ -32,4 +32,10 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
 
+-> [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)
+
+-> [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+
+-> [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)
+
 -> []()
