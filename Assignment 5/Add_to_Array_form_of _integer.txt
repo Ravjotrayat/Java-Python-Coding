@@ -1,0 +1,44 @@
+//Add to Array-Form of Integer
+import java.util.*;
+public class Add_to_Array_form_of _integer
+{
+   public static void main(String args[])
+   {
+      Scanner sc=new Scanner(System.in);
+System.out.println("Enter the limit");
+int ll=sc.nextInt();
+System.out.println("Enter the value of k");
+int k=sc.nextInt();
+int num[]=new int[ll];
+System.out.println("Enter the Array elements(0 - 9)");
+for(int i=0;i<ll;i++)
+num[i]=sc.nextInt();
+int j=0;
+ArrayList<Integer> l=new ArrayList<>();
+for(int i=ll-1;i>=0;i--)
+{
+      l.add( (num[i]+j+k%10 ) %10);
+     j=(num[i]+j+k%10 ) %10;
+     k=k/10;
+}
+if(k!=0)
+{
+    if(j!=0)
+      {k+=j;j=0;}
+
+    while(k!=0)
+      {
+          l.add(k%10);
+          k=k/10;
+       }
+}
+
+
+if(j!=0)
+ l.add(j);
+
+Collections.reverse(l);
+System.out.println(l);
+}
+}
+      
