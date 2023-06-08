@@ -1,0 +1,36 @@
+// Maximum Population Year
+import java.util.*;
+public class Maximum_population_year
+{
+    public static void main(String args[])
+{
+   Scanner sc =new Scanner(System.in);
+System.out.println("Enter the limit ");
+int n=sc.nextInt();
+int log[][]=new int[n][2];
+int aa[]=new int[101];
+System.out.println("Enter th birth and death year");
+for(int i=0;i<n;i++)
+{
+log[i][0]=sc.nextInt();
+log[i][1]=sc.nextInt();
+}
+
+for(int i=0;i<log.length;i++)
+{     aa[log[i][0]-1950]++;
+      aa[log[i][1]-1950]--;
+}
+for(int i=1;i<101;i++)
+   aa[i]+=aa[i-1];
+
+int value=0,yr=1950;
+for(int i=1;i<101;i++)
+{
+      if(value>aa[i])
+         {    value=aa[i];
+               yr=1950+i;
+         }
+}
+System.out.println("Numbers :"+yr);
+}
+}

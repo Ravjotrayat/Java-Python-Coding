@@ -1,0 +1,79 @@
+//Determine Whether Matrix Can Be Obtained By Rotation
+import java.util.*;
+public class Matrix_obtained_rotation
+{
+    public static void main(String args[])
+{
+      Scanner sc =new Scanner(System.in);
+     System.out.println("Enter the limit ");
+    int n=sc.nextInt(); 
+    System.out.println("Enter the matrix");
+    int mat[][]= new int[n][n];
+   for(int i=0;i<n;i++)
+   {
+        for(int j=0;j<n;j++)
+       mat[i][j]=sc.nextInt();
+   }
+     System.out.println("Enter the Target matrix");
+    int target[][]=new int [n][n];
+    for(int i=0;i<n;i++)
+    { 
+        for(int j=0;j<n;j++)
+        target[i][j]=sc.nextInt();
+   }
+
+   int flag=0;
+    for(int k=0;k<4;k++)  
+   {
+        if( check(mat,target) )
+          { System.out.println("It can be rotated"); flag=1; break;}
+
+       rotate(mat);
+    }
+  if(flag!=1)
+    System.out.println("It cannot be rotated");
+}
+
+static boolean check(int[][] matrix, int[][] target)
+{      int n=target.length;
+       for(int i=0;i<n;i++)
+       {
+        for(int j=0;j<n;j++)
+          {   if(matrix[i][j]!=target[i][j])
+              return false;
+           }
+      }
+return true;
+}
+
+static void rotate(int matrix[][])
+{
+int n=matrix.length;
+ for(int i=0;i<n;i++)
+   {
+        for(int j=0;j<i;j++)
+        {   int temp=matrix[i][j];
+            matrix[i][j]=matrix[j][i];
+            matrix[j][i] = temp;
+        }
+   }
+
+int e=n-1;
+int s=0;
+while(s<=e)
+{
+   for(int j=0;j<n;j++)   
+      {
+          int temp=matrix[j][s] ;
+           matrix[j][s]=matrix[j][e];
+          matrix[j][e]=temp;
+      }
+    s++;
+    e--;
+}
+
+}
+}
+
+
+
