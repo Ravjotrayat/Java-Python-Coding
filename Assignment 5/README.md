@@ -38,4 +38,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)
 
+-> [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)
+
+-> [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
+
 -> []()
