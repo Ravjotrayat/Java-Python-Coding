@@ -1,0 +1,38 @@
+// Find N Unique Integers Sum up to Zero
+import java.util.*;
+public class N_unique_integers 
+ {
+    public static void main(String args[]) 
+ {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the limit");
+        int n = sc.nextInt(); 
+        //System.out.println("Enter the elements");
+        int arr[]=new int[n];
+                                              //15
+            if(n%2!=0)
+            {   
+               int  y=n/2;
+          for(int i=-y,t=0 ;i<=y;i++)   
+              { arr[t]=i;t++; }
+             
+              for(int i=0;i<n;i++)
+                System.out.print(arr[i]+" " );
+
+             } 
+     
+      else
+           {       
+               int  y=n/2;
+          for(int i=-y,t=0 ;i<=y;i++)
+          {   if(i==0)
+              continue;
+              arr[t]=i;t++;
+             }
+              for(int i=0;i<n;i++)
+                System.out.print(arr[i]+" " );
+            } 
+
+      // else
+  }
+}
