@@ -46,4 +46,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)
 
+-> [Lucky Number In a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)
+
+-> [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+
 -> []()
