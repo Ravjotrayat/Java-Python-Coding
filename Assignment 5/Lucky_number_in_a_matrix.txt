@@ -1,0 +1,31 @@
+// Lucky Number in a Matrix
+import java.util.*;
+public class Lucky_number_in_a_matrix
+ {
+    public static void main(String args[]) 
+ {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the limit");
+        int n = sc.nextInt(); 
+       int m= sc.nextInt(); 
+   int arr[][]=new int[n][n];
+ArrayList<Integer> ll=new ArrayList<>();
+           System.out.println("Enter the elements");
+for(int i=0;i<n;i++)
+{    for(int j=0;j<m;j++)
+       arr[i][j]=sc.nextInt();
+}
+int min=0;
+for(int i=0;i<n;i++)
+{  min=arr[i][0];
+     for(int j=0;j<m;j++)
+     {
+         if(min >arr[i][j])
+            min=arr[i][j];
+     }
+   ll.add(min);
+ }
+System.out.println("Lowest in row and highest in column "+Collections.max(ll));
+
+}
+}
