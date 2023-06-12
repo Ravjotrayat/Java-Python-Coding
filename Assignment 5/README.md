@@ -1,6 +1,6 @@
 # Try these questions in Leetcode 
 
-To find the solution from above,write the leetcode question name in the search section and every solution contains the Leetcode question heading inside as well.
+To find the solution from above,write the leetcode question name in the search section and every solution contains the Leetcode question heading as well.
 
 -> [Build Array from Permutation](https://leetcode.com/problems/build-array-from-permutation/)
 
@@ -41,5 +41,13 @@ To find the solution from above,write the leetcode question name in the search s
 -> [Maximum Population Year](https://leetcode.com/problems/maximum-population-year/)
 
 -> [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
+
+-> [Two Sum](https://leetcode.com/problems/two-sum/)
+
+-> [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)
+
+-> [Lucky Number In a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)
+
+-> [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
 -> []()
