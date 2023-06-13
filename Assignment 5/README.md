@@ -1,4 +1,4 @@
-# Try these questions in Leetcode 
+  # Try these questions in Leetcode 
 
 To find the solution from above,write the leetcode question name in the search section and every solution contains the Leetcode question heading as well.
 
@@ -51,5 +51,9 @@ To find the solution from above,write the leetcode question name in the search s
 -> [Lucky Number In a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/)
 
 -> [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+
+-> [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)
+
+-> [Plus One](https://leetcode.com/problems/plus-one/)
 
 -> []()
