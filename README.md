@@ -34,6 +34,6 @@
 
 # Assignment 5:Arrays
 
-# Assignment 6:
+# Assignment 6: Searching (Coming Soon)
 
            
