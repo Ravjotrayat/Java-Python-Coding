@@ -66,4 +66,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/)
 
+-> [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+
+-> [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+
 -> []()
