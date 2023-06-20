@@ -1,0 +1,39 @@
+// Sort Colours
+import java.util.*;
+public class Sort_colours
+{
+public static void main(String args[])
+{
+  Scanner sc =new Scanner(System.in);
+System.out.println("Enter the Limit");
+int n=sc.nextInt();
+int arr[]=new int[n];
+
+System.out.println("Enter the 3 color as many times(1,2,0) ");
+for(int i=0;i<n;i++)
+arr[i]=sc.nextInt();
+
+System.out.println("Initial Array");
+
+for(int i=0;i<n;i++)
+System.out.print(arr[i]+" ");
+
+for(int i=0;i<n;i++)
+{
+   for(int j=0;j<n-1;j++)
+  {
+  if(arr[j]>arr[j+1])
+{
+  int temp = arr[j];
+  arr[j] = arr[j+1];
+arr[j+1]=temp;
+}
+}
+}
+ System.out.println();
+ System.out.println("Final Array");
+for(int i=0;i<n;i++)
+System.out.print(arr[i]+" ");
+
+}
+}
