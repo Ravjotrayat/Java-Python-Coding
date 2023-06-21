@@ -78,4 +78,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Sort Colors](https://leetcode.com/problems/sort-colors/)
 
+-> [House Robber](https://leetcode.com/problems/house-robber/)
+
+-> [Max Value of Equation](https://leetcode.com/problems/max-value-of-equation/)
+
 -> []()
