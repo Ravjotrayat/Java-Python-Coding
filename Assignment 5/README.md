@@ -74,4 +74,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Jump Game](https://leetcode.com/problems/jump-game/)
 
+-> [Rotate Array](https://leetcode.com/problems/rotate-array/)
+
+-> [Sort Colors](https://leetcode.com/problems/sort-colors/)
+
 -> []()
