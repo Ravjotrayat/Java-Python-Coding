@@ -1,0 +1,35 @@
+//House Robber
+import java.util.*;
+public class House_robber
+{
+public static void main(String args[])
+{
+  Scanner sc =new Scanner(System.in);
+
+System.out.println("Enter the Limit");
+int n=sc.nextInt();
+
+System.out.println("Enter the money a row of house has....");
+int arr[]=new int[n];
+for(int i=0;i<n;i++)
+arr[i]=sc.nextInt();
+
+System.out.println("Initial Array");
+for(int i=0;i<n;i++)
+System.out.print(arr[i]+" ");
+System.out.println();
+int result[]=new int [n+1];
+result[0]=0;
+result[1]=arr[0];
+for(int i=1;i<n;i++)
+{
+       result[i+1]=Math.max( result[i]  ,  arr[i]+result[i-1] );
+}
+System.out.println(result[n]);
+}
+}
+
+
+
+
+

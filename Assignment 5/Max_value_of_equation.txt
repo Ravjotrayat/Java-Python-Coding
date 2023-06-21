@@ -1,0 +1,58 @@
+//Max Value of Equation
+import java.util.*;
+public class Max_value_of_equation
+{
+public static void main(String args[])
+{
+  Scanner sc =new Scanner(System.in);
+
+System.out.println("Enter the Limit");
+int n=sc.nextInt();
+
+int arr[][]=new int[n][2];
+System.out.println("Enter the "+n+" number of coordinate");
+for(int i=0;i<n;i++)
+{
+for(int j=0;j<2;j++)
+arr[i][j]=sc.nextInt();
+System.out.println();
+}
+
+System.out.println("Enter th value of K ....");
+int k=sc.nextInt();
+
+int ans=0;
+int max =Integer.MIN_VALUE;
+int mod=0;
+int flag=1;
+for(int i=0;i<n;i++)
+{    if(flag<i+1)
+          flag=i+1;
+  for(int j=flag;j<n;j++)
+{
+      mod=Math.abs(arr[i][0]-arr[j][0]);
+     if(mod<=k)
+       ans=mod+(arr[i][1]+arr[j][1]);
+      if(mod>k)
+       break;
+     if(max<ans)
+     {
+        max=ans;
+        flag=j-1;
+     }
+}
+
+}
+
+System.out.println("Maximum value is : "+max);
+}
+}
+
+
+
+
+
+
+
+
+
