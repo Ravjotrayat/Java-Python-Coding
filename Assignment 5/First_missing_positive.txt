@@ -1,0 +1,52 @@
+//First missing positive
+import java.util.*;
+public class First_missing_positive
+{
+ public static void main(String args[])
+ {
+    Scanner sc = new Scanner(System.in);
+System.out.println("Enter the Limit");
+int n=sc.nextInt();
+//  [7,8,9,10,11]
+int arr[]=new int[n];
+for(int i=0;i<n;i++)
+  arr[i]=sc.nextInt();
+//
+boolean col=false;
+for(int i=0;i<n;i++)
+{
+   if(arr[i]==1)
+   col=true;
+
+  if(arr[i]<1 || arr[i]>n)
+    arr[i]=1;
+}
+//
+if(col==false)
+System.out.println("Smallest positive integer is :"+ 1);
+
+if(col==true)
+{
+for(int i=0;i<n;i++ )
+{   
+   int t=Math.abs(arr[i]);
+    arr[t-1]=-Math.abs(arr[t-1]);
+}
+}//end of if
+
+if(col==true)
+{
+for(int i=0;i<n;i++ )
+{   
+ if(arr[i]>0)
+{System.out.println("Smallest positive integer is :"+(i+1));
+col=false;
+break;}
+}
+}//end of if
+
+if(col!=false)
+System.out.println("Smallest positive integer is :"+(n+1));
+
+}
+}
