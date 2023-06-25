@@ -1,0 +1,81 @@
+//Two Sum II - Input Array is Sorted
+import java.util.*;
+public class Two_sum_II 
+{
+ public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+System.out.println("Enter the limit");
+int n=sc.nextInt();
+int arr[]=new int [n];
+System.out.println("Enter the elements in sorted order in non-decreasing order");
+for(int i=0;i<n;i++)
+arr[i]=sc.nextInt();
+
+System.out.println("Enter the target value");
+int target=sc.nextInt();
+
+int result[]=new int[2];
+
+int start=0;
+int end=n-1;
+while(start<=end)
+{
+ // int mid=start+(end-start);
+      if(arr[start]+arr[end]==target)
+      {
+          arr[0]=start+1;arr[1]=end+1;break;
+      }
+else if(arr[start]+arr[end]>target)
+     end--;
+else
+   start++;
+}
+System.out.println("["+arr[0]+","+arr[1]+"]");
+}
+}
+
+// Or u can also do this
+
+/*
+
+//Two Sum II - Input array is sorted
+// [2,7,11,15] ,,target=9,,output=[1,2]
+
+import java.util.*;
+public class A1
+{
+ public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+
+int arr[]=new int[n];
+for(int i=0;i<n;i++)
+arr[i]=sc.nextInt();
+
+System.out.println("Enter the target");
+int target=sc.nextInt();
+
+int brr[]=new int[2];
+brr= find(arr,target);
+  for(int i:brr)
+System.out.print(i+" ");
+}
+public static int[] find(int arr[],int target)
+{
+    int start=0,end=arr.length-1;
+    while(start<=end)
+{
+    if((arr[start]+arr[end])==target)
+          {  return new int []{start+1,end+1};}
+   else if((arr[start]+arr[end])>target)
+            end--;
+  else 
+         start++;
+}
+return new int[]{};
+}
+}
+
+*/
