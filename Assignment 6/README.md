@@ -8,4 +8,9 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
 
+-> [Arranging Coins(Easy)](https://leetcode.com/problems/arranging-coins/)
+
+-> [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+
 -> []()
+
