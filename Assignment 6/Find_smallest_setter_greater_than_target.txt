@@ -1,0 +1,41 @@
+// Find Smallest Letter Greater Than Target
+/*
+Input: letters = ["c","f","j"], target = "a"
+Output: "c"
+*/
+import java.util.*;
+public class Find_smallest_setter_greater_than_target
+{
+
+ public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+  // char ch[]= {'c','f','j'};
+  // char target='a';
+  //output=c
+
+   char ch[]= {'a', 'c', 'f', 'h', 'k'};
+   char target='d';
+   //output=c
+
+System.out.println(ch.length);
+   char coo=check(ch,target);
+System.out.println(coo);
+}
+
+public static char check(char[] ch,char target)
+{
+
+int end=ch.length;
+int start=0,mid=0;	
+while (start<=end)
+{
+  mid=start+(end-start)/2;
+    if(ch[mid]>target)
+	end=mid-1;
+    else
+  	start=mid+1;
+}
+return ch[mid];
+}
+}
