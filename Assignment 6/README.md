@@ -12,5 +12,9 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 
+-> [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
+
+-> [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+
 -> []()
 
