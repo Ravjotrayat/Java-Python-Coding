@@ -1,0 +1,40 @@
+//  Kth Missing Positive Number
+import java.util.*;
+public class Kth_missing_positive_number
+{
+ public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+
+int arr[]=new int[n];
+System.out.println("Enter the array elements");
+for(int i=0;i<n;i++)
+arr[i]=sc.nextInt();
+
+System.out.println("Enter the value of k");
+int k=sc.nextInt();
+
+int i=0;
+int count=1;
+int ans=0,flag=0;
+while(i<arr.length)
+{
+     if(arr[i]!=count)  
+           --k;
+    else
+            ++i;
+
+    if(k==0)
+      {      ans=count; flag=1;break;   }
+count++;
+}
+if(flag==1)
+System.out.println(ans);
+else
+ {  ans=arr[i-1]+k;
+System.out.println(ans);}
+}
+}
+
+// arr = [2,3,4,7,11], k = 5   Output: 9
