@@ -16,5 +16,9 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 
+-> [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
+
+-> [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+
 -> []()
 
