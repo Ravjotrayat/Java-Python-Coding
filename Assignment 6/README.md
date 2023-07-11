@@ -27,5 +27,8 @@ To find the solution from above,write the leetcode question name in the search s
 -> [Check If N and Its Double Exist
 ](https://leetcode.com/problems/check-if-n-and-its-double-exist/)
 
+-> [Fair Candy Swap
+](https://leetcode.com/problems/fair-candy-swap/description/)
+
 -> []()
 
