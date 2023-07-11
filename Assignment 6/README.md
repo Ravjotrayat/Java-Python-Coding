@@ -20,5 +20,9 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 
+-> [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
+
+-> [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+
 -> []()
 
