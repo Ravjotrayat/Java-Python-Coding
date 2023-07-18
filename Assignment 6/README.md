@@ -30,5 +30,9 @@ To find the solution from above,write the leetcode question name in the search s
 -> [Fair Candy Swap
 ](https://leetcode.com/problems/fair-candy-swap/description/)
 
+-> [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)
+
+-> [Binary Search](https://leetcode.com/problems/binary-search/)
+
 -> []()
 
