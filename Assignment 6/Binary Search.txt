@@ -1,0 +1,31 @@
+//Binary Search
+import java.util.*;
+class Binary Search
+{
+    public static int search(int[] nums, int target) 
+    {
+        return bs(nums,nums.length-1,0,target);
+    }
+    public static int bs(int[]nums,int right,int left,int target)
+    {
+        if(right>=left)
+        {
+            int mid = left+(right-left)/2;
+            if(nums[mid]==target)
+                return mid;
+            if(nums[mid]>target)
+                return bs(nums,mid-1,left,target); 
+            else   
+                return bs(nums,right,mid+1,target);
+        }
+        return -1;
+    }
+
+public static void main(String args[])
+{
+int arr []={-1,0,3,5,9,12};
+int target=9;
+System.out.println(search(arr,target));
+//output=4
+}
+}
