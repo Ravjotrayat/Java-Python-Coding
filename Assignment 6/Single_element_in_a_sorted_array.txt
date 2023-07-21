@@ -1,0 +1,35 @@
+//Single Element in a Sorted Array
+
+import java.util.*;
+class Single_element_in_a_sorted_array
+{
+    public static int singleNonDuplicate(int[] nums) 
+    {
+        int a=0;
+        for(int i=0;i<nums.length;i++)
+        {
+            a^=nums[i];
+             while(a!=0)
+                 break;
+        }
+        return a;
+    }
+
+public static void main(String args[])
+{
+int  num[]={3,3,7,7,10,11,11};
+//Output : 10
+System.out.println(singleNonDuplicate(num));
+}
+}
+
+
+
+
+
+
+
+
+
+
+
