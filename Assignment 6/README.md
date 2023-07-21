@@ -34,5 +34,9 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Binary Search](https://leetcode.com/problems/binary-search/)
 
+-> [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+-> [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+
 -> []()
 
