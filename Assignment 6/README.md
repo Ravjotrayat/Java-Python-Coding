@@ -38,5 +38,9 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 
+-> [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
+-> [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+
 -> []()
 
