@@ -42,5 +42,9 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 
+-> [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+
+-> [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+
 -> []()
 
