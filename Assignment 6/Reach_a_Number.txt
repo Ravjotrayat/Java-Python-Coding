@@ -1,0 +1,29 @@
+// Reach a Number
+import java.util.*;
+public class Reach_a_Number
+{
+
+public static void main(String args[])
+{
+int target=2;
+System.out.print(reachNumber(target));
+// Output : 3
+}
+    public static int reachNumber(int target) 
+    {
+        target=Math.abs(target);
+         int count=0;
+         int sum=0;
+         while(sum<target)
+        {
+            count++;
+            sum+=count;              
+        }
+        while((sum-target)%2==1)
+        {
+            count++;
+            sum+=count;
+        }
+        return count;
+    }
+}
