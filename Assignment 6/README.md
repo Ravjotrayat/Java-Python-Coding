@@ -54,5 +54,9 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
+-> [Minimum Absolute Sum Difference](https://leetcode.com/problems/minimum-absolute-sum-difference/)
+
+-> [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+
 -> []()
 
