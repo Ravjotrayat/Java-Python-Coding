@@ -1,0 +1,38 @@
+// Koko Eating Bananas
+import java.util.*;
+class Koko_Eating_Bananas
+{
+public static void main(String args[])
+{
+  int piles[]={3,6,7,11};
+  int h=8;
+  System.out.println(minEatingSpeed(piles,h));
+  // Output : 4
+}
+    public static int minEatingSpeed(int[] piles, int h)
+    {
+        int start=1;
+        int end=1000000000;
+        while(start<end)
+        {
+            int mid=start+(end-start)/2;
+            if(eat(piles,mid)<=h)
+              end=mid;
+            else
+               start=mid+1;
+        }
+        return start;
+    }
+
+    public static int eat(int piles[],int k)
+    {
+        int ho=0;
+        for (int p:piles)
+        {
+            ho+=p/k;
+            if(p%k>0)
+            ho++;
+        }
+        return ho;
+    }
+}
