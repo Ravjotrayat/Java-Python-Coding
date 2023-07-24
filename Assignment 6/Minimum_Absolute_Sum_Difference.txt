@@ -1,0 +1,47 @@
+// Minimum Absolute Sum Difference
+import java.util.*;
+public class Minimum_Absolute_Sum_Difference
+{
+public static void main(String args[])
+{
+int num[]={1,7,5};
+int num1[]={2,3,5};
+System.out.println(minAbsoluteSumDiff(num,num1));
+//Output : 3
+}
+
+public static int minAbsoluteSumDiff(int[] nums1, int[] nums2) 
+    {
+	int[] sorted1 = nums1.clone();
+        Arrays.sort(sorted1);
+        long ans = 0;
+        int max_change = -1;
+       
+        for(int i = 0; i < nums1.length; i++)
+        {
+            int diff = Math.abs(nums1[i] - nums2[i]);
+            ans += diff;
+            
+            if(nums1[i] == nums2[i]) continue;
+            
+            int idx = Arrays.binarySearch(sorted1, nums2[i]); //if looking for 3 in [1, 2, 4], will return -3
+            
+            if(idx >= 0){ //nums2[i] exist in sorted1
+                max_change = Math.max(max_change, diff);
+                
+            }else{
+                int actualIndex = -1* (idx  + 1);  
+                if(actualIndex > 0)
+                {
+                    max_change = Math.max(max_change, diff - Math.abs(sorted1[actualIndex - 1] - nums2[i]));
+                }
+                if(actualIndex < nums1.length)
+                {
+                    max_change = Math.max(max_change, diff - Math.abs(sorted1[actualIndex] - nums2[i]));
+                }
+            }
+        }
+        if(max_change > -1) ans -= max_change; //avoid such case that all the elements in nums1 and nums2 are totally the same 
+        return (int)(ans% 1_000_000_007);
+    }
+}
