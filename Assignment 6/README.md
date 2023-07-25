@@ -58,5 +58,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
--> []()
+-> [Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/)
 
+-> [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+
+-> []()
