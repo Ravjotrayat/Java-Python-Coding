@@ -62,4 +62,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Frequency of the Most Frequent Element](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
+-> [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+
+-> [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+
 -> []()
