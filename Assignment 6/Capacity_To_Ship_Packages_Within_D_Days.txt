@@ -1,0 +1,60 @@
+// Capacity To Ship Packages Within D Days
+
+import java.util.*;
+public class Capacity_To_Ship_Packages_Within_D_Days
+{
+public static void main(String args[])
+{
+int weight[]={3,2,2,4,1,4};
+int days=3;
+System.out.println(shipWithinDays(weight,days));
+// Output : 6
+
+}
+public static int shipWithinDays(int[] weights, int days)
+{
+ int max=0;
+ int sum=0;
+ for(int i=0;i<weights.length;i++)
+ {
+   max=Math.max(max,weights[i]);
+   sum+=weights[i];
+ }
+
+ while(max<=sum)
+ {
+   int mid=max+(sum-max)/2;
+   if(daycheck(weights,days,mid))
+       sum=mid-1;
+   else
+      max=mid+1;
+ }
+
+ return max;
+}
+
+public static boolean daycheck(int arr[],int days,int mid)
+{
+   int din=1;
+   int sum=0;
+
+   for(int i=0;i<arr.length;i++)
+   {
+      if(din>days)
+         return false;
+
+      if(sum+arr[i]>mid)
+         {
+            sum=0;
+            din++;
+         }
+         sum+=arr[i];
+
+   }
+   if(din<=days)
+   return true;
+
+   return false;
+}
+
+}
