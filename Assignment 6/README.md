@@ -68,4 +68,6 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
+-> [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+
 -> []()
