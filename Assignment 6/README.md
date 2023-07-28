@@ -66,4 +66,6 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
+-> [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
 -> []()
