@@ -1,0 +1,56 @@
+// Divide Chocolate
+// If it gives error in compilation time, then write "javac -Xdiags:verbose class_name.java" .
+import java.util.*;
+
+public class Divide_Chocolate
+{
+public static void main(String args[])
+{
+//int nums[]={1,2,3,4,5,6,7,8,9};  //k=5  Output : 6
+int nums[]={5,6,7,8,9,1,2,3,4};  //k=8  Output : 1
+//int nums[]={1,2,2,1,2,2,1,2,2};  //k=2  Output : 5
+
+int k=8;
+
+System.out.println(maxSweetness(nums,k));
+}
+
+public static int maxSweetness(int nums[],int k)
+{
+int sum=0;
+int min=1;
+for(int i=0;i<nums.length;i++)
+  sum+=nums[i];
+
+int mid=0;
+while(min+1<sum)
+{
+	mid=min+(sum-min)/2;
+
+	if(Rcheck(nums,mid,k))	
+	       	min=mid;
+	else	
+		sum=mid-1; 
+}
+return (int)min;
+}
+
+public static boolean Rcheck(int arr[],int mid,int k)
+{
+int din=0;
+int sum=0;
+for(int i : arr){
+	if(sum+i>=mid)
+	{  sum=0; din++;  }
+	else
+           sum+=i;
+}
+return (din>=k+1);
+}
+}
+
+
+
+
+
+

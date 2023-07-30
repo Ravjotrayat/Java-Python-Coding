@@ -1,0 +1,69 @@
+// Count of Smaller Numbers after Self
+
+import java.util.*;
+public class Count_of_Smaller_Numbers_after_Self
+{
+public static void main(String args[])
+{
+int nums[]={5,2,6,1};
+A38 obj=new A38();
+System.out.println(obj.countSmaller(nums));
+//Output : [2,1,1,0] 
+}
+
+public List<Integer> countSmaller(int[] nums)
+ {
+        List<Integer> result = new ArrayList<>();
+        if (nums == null || nums.length == 0)
+            return result;
+
+        Integer[] count = new Integer[nums.length];
+        for (int i = 0; i < count.length; i++) 
+            count[i] = 0;
+
+        int[] indices = new int[nums.length];
+        for (int i = 0; i < indices.length; i++) 
+            indices[i] = i;
+
+ mergeSort(nums, indices, count, 0, nums.length - 1);
+ result.addAll(Arrays.asList(count));
+
+        return result;
+    }
+
+    public void mergeSort(int[] nums, int[] indices, Integer[] count, int left, int right) {
+        if (left >= right) 
+            return;
+  
+   int mid = left + (right - left) / 2;
+   mergeSort(nums, indices, count, left, mid);
+   mergeSort(nums, indices, count, mid + 1, right);
+
+        int[] temp = new int[right - left + 1];
+        int i = left;
+        int j = mid + 1;
+        int k = 0;
+
+     while (i <= mid && j <= right) 
+	{
+         if (nums[indices[i]] > nums[indices[j]])
+	 {
+              count[indices[i]] += right - j + 1;
+              temp[k++] = indices[i++];
+	 }
+            
+	 else 
+                temp[k++] = indices[j++];   
+        }
+
+        while (i <= mid) {
+            temp[k++] = indices[i++];
+        }
+
+        while (j <= right) {
+            temp[k++] = indices[j++];
+        }
+
+        System.arraycopy(temp, 0, indices, left, temp.length);
+    }
+}

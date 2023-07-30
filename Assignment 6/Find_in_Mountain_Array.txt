@@ -1,0 +1,54 @@
+// Find_in_Mountain_Array
+
+/**
+ * // This is MountainArray's API interface.
+ * // You should not implement it, or speculate about its implementation
+ * interface MountainArray {
+ *     public int get(int index) {}
+ *     public int length() {}
+ * }
+ */
+ 
+
+ public int findInMountainArray(int target, MountainArray mountainArr) {
+        
+        int left=0;
+        int right=mountainArr.length()-1;
+        while(left<=right)
+        {
+            int mid=left+(right-left)/2;
+            if(mountainArr.get(mid)> mountainArr.get(mid+1))
+                right=mid-1;
+            else
+                left=mid+1;
+        }
+        int maxindex=left;
+        left=0;
+        right=maxindex;
+        while(left<=right)
+        {
+            int mid=left+(right-left)/2;
+            if(mountainArr.get(mid)==target)
+                return mid;
+            if(mountainArr.get(mid)>target)
+                right=mid-1;
+            else
+                left=mid+1;
+        }
+        left=maxindex;
+        right=mountainArr.length()-1;
+        while(left<=right)
+        {
+            int mid=left+(right-left)/2;
+            if(mountainArr.get(mid)==target)
+                return mid;
+            if(mountainArr.get(mid)>target)
+                left=mid+1;
+            else
+                right=mid-1;
+        }
+
+        return -1;
+    }
+
+}

@@ -1,0 +1,54 @@
+// Split Array Largest Sum
+import java.util.*;
+public class Split_Array_Largest_Sum
+{
+public static void main(String args[])
+{
+int nums[]={7,2,5,10,8};
+int k=2;
+//Output : 18
+System.out.println(splitArray(nums,k));
+}
+
+ public static int splitArray(int[] nums, int k) 
+    {
+        int max=0;
+        int sum=0;
+        for(int i=0;i<nums.length;i++)
+        {
+            sum+=nums[i];
+            max=Math.max(max,nums[i]);
+        }
+
+        while(max<=sum)
+        {
+            int mid=max+(sum-max)/2;
+            if(check(nums,mid,k))
+                sum=mid-1;
+            else
+               max=mid+1;
+        }
+        return max;
+    }
+
+    public static boolean check(int arr[],int mid,int k)
+    {
+        int din=1;
+        int sum=0;
+        for(int i:arr)
+        { 
+             sum+=i;
+             
+            if(sum>mid)
+            {
+                sum=i;;
+                din++;
+            }
+        }
+
+        if(din<=k)
+        return true;
+        return false;
+    }
+
+}
