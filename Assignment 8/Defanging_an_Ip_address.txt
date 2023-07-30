@@ -1,0 +1,22 @@
+// Defanging an Ip address
+/*
+Input: address = "1.1.1.1"
+Output: "1[.]1[.]1[.]1"
+
+Input: address = "255.100.50.0"
+Output: "255[.]100[.]50[.]0"
+*/
+
+import java.util.*;
+public class Defanging_an_Ip_address
+{
+public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+
+System.out.println("Enter the Address to be defanged");
+String address=sc.next();
+System.out.println("Defanged Address is "+address.replace(".","[.]"));
+
+}
+}
