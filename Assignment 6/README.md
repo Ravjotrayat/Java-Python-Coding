@@ -70,4 +70,8 @@ To find the solution from above,write the leetcode question name in the search s
 
 -> [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 
+-> [Aggressive cows](https://www.spoj.com/problems/AGGRCOW/)
+
+-> [Book allocation](https://www.geeksforgeeks.org/allocate-minimum-number-pages/)
+
 -> []()
