@@ -23,7 +23,7 @@
             -> Calculate Permutation and Combination of the input numbers.
             -> Subtract the Product and the Sum of Digits of an Integer.
              
-# Assignment 4:(Functions)
+# Assignment 4: (Functions)
 
             -> Factorial of a number
             -> Minimum and maximum number for 3 inputs
@@ -32,8 +32,10 @@
             -> Pythagorean Triplet
             -> Sum of N natural numbers
 
-# Assignment 5:Arrays
+# Assignment 5: Arrays
 
 # Assignment 6: Searching 
 
-# Assignment 7: Strings (Coming Soon)           
+# Assignment 7: Sorting (on going)
+
+# Assignment 8: Strings(on going)
