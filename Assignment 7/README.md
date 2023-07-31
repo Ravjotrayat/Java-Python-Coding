@@ -7,5 +7,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 
+-> [Majority Element](https://leetcode.com/problems/majority-element/)
+
 -> []()
 
