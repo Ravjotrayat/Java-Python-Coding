@@ -9,4 +9,4 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Shuffle String](https://leetcode.com/problems/shuffle-string/)
 
--> []()
+-> [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)
