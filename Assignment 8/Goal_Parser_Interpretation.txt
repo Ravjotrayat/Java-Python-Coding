@@ -1,0 +1,23 @@
+// Goal Parser Interpretation
+/*
+Input: command = "G()(al)"
+Output: "Goal"
+
+Input: command = "G()()()()(al)"
+Output: "Gooooal"
+
+*/
+
+import java.util.*;
+public class Goal_Parser_Interpretation
+{
+public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+System.out.println("Enter the command");
+   String str=sc.next();
+
+System.out.println(str.replace("()","o").replace("(al)","al"));
+}
+}
+
