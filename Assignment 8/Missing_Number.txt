@@ -1,0 +1,45 @@
+// Missing Number
+/*
+Input: s = "is2 sentence4 This1 a3"
+Output: "This is a sentence"
+Explanation: Sort the words in s to their original positions "This1 is2 a3 sentence4", then remove the numbers.
+
+Input: s = "Myself2 Me1 I4 and3"
+Output: "Me Myself and I"
+Explanation: Sort the words in s to their original positions "Me1 Myself2 and3 I4", then remove the numbers.
+*/
+
+import java.util.*;
+public class Missing_Number
+{
+public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+System.out.println("Enter the String");
+
+String s=sc.nextLine();
+String arr[]=s.split(" ");
+int l=arr.length;
+String str[]=new String[l];
+
+for(int i=0;i<l;i++)
+{
+     int k=arr[i].length();
+	// Taking the index of the number,converting it in numerical //form using '0' and doing -1 as its index starts from 0
+	int index=arr[i].charAt(k-1) - '0' -1;
+
+    str[index]=arr[i].substring(0,k-1);
+}
+// Either this way you can print otherwise
+System.out.println();
+System.out.println(String.join(" ",str));
+
+// You can print in this way using loop
+System.out.println();
+for(String i:str)
+{
+System.out.print(i+" ");
+}
+
+}
+}

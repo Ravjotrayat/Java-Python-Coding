@@ -1,0 +1,23 @@
+// Sorting the Sentence
+import java.util.*;
+
+public class Sorting_the_Sentence
+{
+public static void main(String args[])
+{
+String s="is2 sentence4 This1 a3";
+System.out.println(sortSentence(s));
+}
+    public static String sortSentence(String s) 
+    {
+         String[] strArr = s.split(" ");
+        String[] ans = new String[strArr.length];
+
+        for (String str : strArr) {
+            int k = str.length();
+            int idx = str.charAt(k - 1) - '0' - 1;
+            ans[idx] = str.substring(0, k - 1);     // O(k)
+        }
+          return String.join(" ", ans);
+    }
+}
