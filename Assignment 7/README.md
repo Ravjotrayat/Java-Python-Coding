@@ -9,5 +9,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Majority Element](https://leetcode.com/problems/majority-element/)
 
+-> [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+
 -> []()
 
