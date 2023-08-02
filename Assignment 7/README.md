@@ -11,5 +11,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 
+-> [Missing Number](https://leetcode.com/problems/missing-number/)
+
 -> []()
 
