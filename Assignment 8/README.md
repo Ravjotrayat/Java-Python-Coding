@@ -13,4 +13,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
 
+-> [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)
+
 -> []()
