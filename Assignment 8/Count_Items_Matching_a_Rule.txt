@@ -1,0 +1,92 @@
+// Count Items Matching a Rule
+/*
+Input: items = [["phone","blue","pixel"],["computer","silver","lenovo"],["phone","gold","iphone"]], ruleKey = "color", ruleValue = "silver"
+
+Output: 1
+
+
+Input: items = [["phone","blue","pixel"],["computer","silver","phone"],["phone","gold","iphone"]], ruleKey = "type", ruleValue = "phone"
+
+Output: 2
+
+Hint=We can also do it with 2D Array
+*/
+
+import java.util.*;
+public class Count_Items_Matching_a_Rule
+{
+public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+System.out.println("Enter the Number of inner list or Limit");
+
+int limit=sc.nextInt();
+int count=0;
+
+List<List<String>> arr= new ArrayList<>();
+for(int i=0;i<limit;i++)
+{
+   arr.add(new ArrayList<String>());
+}
+System.out.println("Enter the Number of inner list ELEMENTS want");
+int m=sc.nextInt();
+for(int i=0;i<limit;i++)
+{
+System.out.println("Enter the elements in "+i+" Inner List");
+   List<String> inner=arr.get(i);
+	for(int j=0;j<m;j++)
+	{ 
+      String ss=sc.next();
+      inner.add(ss);
+	}
+}
+System.out.println("Enter the RuleKey and Rulevalue");
+String rulekey=sc.next();
+String rulevalue=sc.next();
+
+if (rulekey.equals("type"))
+{
+     for(int i=0;i<limit;i++)
+	{
+		if(arr.get(i).get(0).equals(rulevalue))
+			count++;
+	}
+}
+
+else if(rulekey.equals("color"))
+{
+	for(int i=0;i<limit;i++)
+	{
+		if(arr.get(i).get(1).equals(rulevalue))
+			count++;
+	}
+}
+
+else
+{ 
+	for(int i=0;i<limit;i++)
+	{
+		if(arr.get(i).get(2).equals(rulevalue))
+			count++;
+	}
+
+}
+System.out.println("Count is ="+count);
+
+for (List<String> inner : arr) {
+ System.out.println("\n"+inner);
+}
+
+}}
+
+
+
+
+
+
+
+
+
+
+
+ 
