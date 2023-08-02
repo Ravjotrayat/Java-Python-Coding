@@ -11,4 +11,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)
 
+-> [Count Items Matching a Rule](https://leetcode.com/problems/count-items-matching-a-rule/)
+
 -> []()
