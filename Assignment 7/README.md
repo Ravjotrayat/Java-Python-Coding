@@ -13,5 +13,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Missing Number](https://leetcode.com/problems/missing-number/)
 
--> []()
+-> [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)
 
+-> []()
