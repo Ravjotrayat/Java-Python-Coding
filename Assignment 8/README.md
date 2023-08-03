@@ -15,4 +15,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Sorting the Sentence](https://leetcode.com/problems/sorting-the-sentence/)
 
+-> [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
+
 -> []()
