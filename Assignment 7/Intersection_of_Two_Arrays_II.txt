@@ -1,0 +1,35 @@
+//Intersection of Two Arrays II
+
+import java.util.*;
+public class `
+{
+public static void main(String args[])
+{
+int nums1[]={4,9,5};
+int nums2[]={9,4,9,8,4};
+int result[]=intersect(nums1,nums2);
+for(int i:result)
+System.out.print(i+" ");
+// output : [9,4] or [4,9]
+}
+    public static int[] intersect(int[] nums1, int[] nums2) 
+    {
+        int i=nums1.length;
+        int j=nums2.length;
+        if(j>i)
+            return intersect(nums2,nums1);
+        int arr[]=new int[1001];
+        for(int k:nums1)
+            arr[k]++;
+        int m=0;
+    for(int h:nums2)
+    {
+        if(arr[h]>0)
+       {
+           nums1[m++]=h;
+            arr[h]--;
+       }
+    }
+    return Arrays.copyOfRange(nums1,0,m);
+    }
+}
