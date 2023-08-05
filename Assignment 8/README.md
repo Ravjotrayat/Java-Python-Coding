@@ -17,4 +17,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 
+-> [To Lower Case](https://leetcode.com/problems/to-lower-case/description/)
+
 -> []()
