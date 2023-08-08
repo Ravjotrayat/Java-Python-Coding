@@ -17,4 +17,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
+-> [Third Maximum Number
+](https://leetcode.com/problems/third-maximum-number/)
+
 -> []()
