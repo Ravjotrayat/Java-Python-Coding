@@ -1,0 +1,29 @@
+//. Determine if String Halves Are Alike
+import java.util.*;
+public class Determine_if_String_Halves_Are_Alike
+{
+    public static boolean halvesAreAlike(String s) 
+    {
+s=s.toLowerCase() ;
+     Set<Character>  arr=new HashSet<>(Arrays.asList('a','e','i','o','u')); 
+     int start=0;
+     int c1=0,c2=0;
+     int end=s.length()-1;
+     while(start<end)
+     { if(arr.contains(s.charAt(start)))
+         {c1++; }
+       if(arr.contains(s.charAt(end)))  
+         {c2++;}
+
+         start++;end--;
+     }
+     return c1==c2;
+    }
+public static void main(String args[])
+{
+String s="textbook";
+System.out.println(halvesAreAlike(s));
+// Output :  false
+}
+}
+
