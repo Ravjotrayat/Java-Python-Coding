@@ -1,0 +1,36 @@
+// Third Maximum Number
+import java.util.*;
+class Third_Maximum_Number
+{
+    public static int thirdMax(int[] nums) {
+        Integer firstMax = null;
+        Integer secondMax = null;
+        Integer thirdMax = null;
+
+        for (Integer num : nums) {
+            if (num.equals(firstMax) || num.equals(secondMax) || num.equals(thirdMax)) {
+                continue;
+            }
+
+            if (firstMax == null || num > firstMax) {
+                thirdMax = secondMax;
+                secondMax = firstMax;
+                firstMax = num;
+            } else if (secondMax == null || num > secondMax) {
+                thirdMax = secondMax;
+                secondMax = num;
+            } else if (thirdMax == null || num > thirdMax) {
+                thirdMax = num;
+            }
+        }
+
+        return thirdMax != null ? thirdMax : (firstMax != null ? firstMax : secondMax);
+    }
+
+public static void main(String args[])
+{
+int nums[]={2,2,3,1};
+System.out.println(thirdMax(nums));
+// Output : 1
+}
+}
