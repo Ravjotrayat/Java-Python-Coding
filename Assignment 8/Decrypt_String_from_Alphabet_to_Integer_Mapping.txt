@@ -1,0 +1,37 @@
+//Decrypt String from Alphabet to Integer Mapping
+import java.util.*;
+public class Decrypt_String_from_Alphabet_to_Integer_Mapping
+{  public static void main(String arg[])
+
+{
+String s="10#11#12";
+System.out.println(freqAlphabets(s));
+//output : "jkab"
+}
+public static String freqAlphabets(String s) 
+{
+ StringBuilder arr=new StringBuilder();
+        int i=0;
+        char ch;
+        while(i<s.length()-2)
+        {   
+            if(s.charAt(i+2)=='#')
+            {
+               ch= (char)(Integer.parseInt(s.substring(i,i+2))+96);
+              i+=2;
+            }
+            else
+            {
+                ch= (char)(Integer.parseInt(s.substring(i,i+1))+96);
+            }
+            i++;
+            arr.append(ch);
+        }
+        while(i<s.length())
+        {
+             ch= (char)(Integer.parseInt(s.substring(i,i+1))+96);i++;
+              arr.append(ch);
+        }
+        return arr.toString();
+}
+}
