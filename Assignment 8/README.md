@@ -21,4 +21,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Determine if string halves are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)
 
+-> [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/description/)
+
 -> []()
