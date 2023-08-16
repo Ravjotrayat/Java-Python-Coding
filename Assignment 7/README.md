@@ -22,3 +22,7 @@ section and every solution contains the Leetcode question heading as well.
 -> [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
 
 -> [Array Partition I](https://leetcode.com/problems/array-partition-i/)
+
+-> [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)
+
+-> []()
