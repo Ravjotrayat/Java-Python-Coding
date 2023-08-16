@@ -23,4 +23,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/description/)
 
+-> [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/)
+
 -> []()
