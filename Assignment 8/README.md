@@ -25,4 +25,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Number of Strings That Appear as Substrings in Word](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/)
 
+-> [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)
+
 -> []()
