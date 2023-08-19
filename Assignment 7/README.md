@@ -25,4 +25,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)
 
+-> [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
+
 -> []()
