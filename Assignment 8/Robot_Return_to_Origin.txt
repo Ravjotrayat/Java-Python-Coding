@@ -1,0 +1,28 @@
+//Robot Return to Origin
+import java.util.*;
+public class Robot_Return_to_Origin
+{
+public static void main(String args[])
+{
+String moves= "UD";
+System.out.println(judgeCircle(moves));
+}
+
+public static boolean judgeCircle(String moves) 
+    {
+           int x=0,y=0;
+           char ii[]=moves.toCharArray();
+           for(char ch:ii)
+           {
+               if( ch=='R')   
+ 		   x++;
+               else if(ch=='L') 
+		   x--;
+               else if(ch=='D')  
+		   y--;
+               else
+                   y++;
+           }
+           return x==0 && y==0;
+    }
+}
