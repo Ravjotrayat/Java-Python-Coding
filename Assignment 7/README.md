@@ -27,4 +27,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
 
+-> [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)
+
 -> []()
