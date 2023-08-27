@@ -31,4 +31,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)
 
+-> [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
+
 -> []()
