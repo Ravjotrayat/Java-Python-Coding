@@ -1,0 +1,24 @@
+// Excel Sheet Column Title
+import java.util.*;
+public class Excel_Sheet_Column_Title
+ {
+    public static String convertToTitle(int columnNumber) 
+    {
+        int n=columnNumber;
+         StringBuilder arr = new StringBuilder();
+        while(n>0)
+        {
+            n--;
+            char c=(char)(n%26+'A');
+            n/= 26;
+            arr.append(c);
+        }
+        arr.reverse();
+        return arr.toString();
+    }
+public static void main(String args[])
+{
+int columnnumber=28;
+System.out.println(convertToTitle(columnnumber));
+}
+}
