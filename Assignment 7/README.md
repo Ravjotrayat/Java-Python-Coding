@@ -29,4 +29,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)
 
+-> [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/)
+
 -> []()
