@@ -29,4 +29,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
+-> [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
+
 -> []()
