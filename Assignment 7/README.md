@@ -33,4 +33,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
+-> [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)
+
 -> []()
