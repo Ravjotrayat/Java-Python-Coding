@@ -1,4 +1,6 @@
 // Lucky Number in a Matrix
+// (we have 2 solutions for this)
+// 1.)
 import java.util.*;
 public class Lucky_number_in_a_matrix
  {
@@ -26,6 +28,34 @@ for(int i=0;i<n;i++)
    ll.add(min);
  }
 System.out.println("Lowest in row and highest in column "+Collections.max(ll));
-
 }
+}
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+// 2.) For leetcode.
+class Solution {
+    public List<Integer> luckyNumbers (int[][] matrix) {
+        List<Integer> lw=new ArrayList<>();
+        int n=matrix.length;
+        int m=matrix[0].length;
+    int big;
+    for(int i=0;i<n;i++)
+    { int min=999999;
+        int colindex=0;
+         for(int j=0;j<m;j++)
+         {
+             if(min >matrix[i][j])
+                {min=matrix[i][j];
+                colindex=j;
+                }
+         }
+     big=min;
+     for(int k=0;k<n;k++)
+     {
+         big=Math.max(big,matrix[k][colindex]);
+     }
+     if(min==big)
+         lw.add(min);
+    }
+        return lw;
+    }
 }
