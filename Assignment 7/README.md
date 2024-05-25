@@ -35,6 +35,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order/)
 
--> []()
+-> [Height Checker](https://leetcode.com/problems/height-checker/description/)
 
 
