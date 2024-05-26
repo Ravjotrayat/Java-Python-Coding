@@ -33,4 +33,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/description/)
 
+-> [Long Pressed Name
+](https://leetcode.com/problems/long-pressed-name/)
+
 -> []()
