@@ -39,5 +39,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [ Relative Sort Array](https://leetcode.com/problems/relative-sort-array/description/)
 
+-> [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/description/)
+
 -> []()
 
