@@ -36,4 +36,6 @@ section and every solution contains the Leetcode question heading as well.
 -> [Long Pressed Name
 ](https://leetcode.com/problems/long-pressed-name/)
 
+-> [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
+
 -> []()
