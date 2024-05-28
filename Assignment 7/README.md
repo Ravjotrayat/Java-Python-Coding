@@ -41,5 +41,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/description/)
 
+-> [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)
+
 -> []()
 
