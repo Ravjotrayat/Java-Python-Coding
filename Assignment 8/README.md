@@ -38,6 +38,8 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
 
--> [ Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)
+-> [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/)
+
+-> [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
 -> []()
