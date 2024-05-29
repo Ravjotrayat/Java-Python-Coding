@@ -43,5 +43,8 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/description/)
 
+-> [Sort Integers by The Number of 1 Bits
+](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)
+
 -> []()
 
