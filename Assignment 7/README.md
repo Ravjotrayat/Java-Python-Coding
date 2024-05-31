@@ -46,5 +46,7 @@ section and every solution contains the Leetcode question heading as well.
 -> [Sort Integers by The Number of 1 Bits
 ](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/)
 
+-> [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)
+
 -> []()
 
