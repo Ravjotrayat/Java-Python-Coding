@@ -42,4 +42,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)
 
+-> [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/description/)
+
 -> []()
