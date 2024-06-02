@@ -48,5 +48,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/)
 
+-> [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
+
 -> []()
 
