@@ -46,4 +46,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Check if Binary String Has at Most One Segment of Ones](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 
+-> [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
+
 -> []()
