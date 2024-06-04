@@ -52,5 +52,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
 
+-> [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)
+
 -> []()
 
