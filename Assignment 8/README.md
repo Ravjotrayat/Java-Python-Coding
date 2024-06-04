@@ -48,4 +48,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)
 
+-> [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)
+
 -> []()
