@@ -56,5 +56,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)
 
+-> [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)
+
 -> []()
 
