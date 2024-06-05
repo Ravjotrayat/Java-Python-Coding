@@ -50,4 +50,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)
 
+-> [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+
 -> []()
