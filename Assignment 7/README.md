@@ -58,5 +58,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/)
 
+-> [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/)
+
 -> []()
 
