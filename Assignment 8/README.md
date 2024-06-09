@@ -52,6 +52,8 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
--> [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/description/)
+-> [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
+-> [Length of last word](https://leetcode.com/problems/length-of-last-word/)
 
 -> []()
