@@ -60,5 +60,7 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Special Array With X Elements Greater Than or Equal X](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/description/)
 
+-> [Find all numbers disappeared in an array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+
 -> []()
 
