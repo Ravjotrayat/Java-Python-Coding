@@ -56,4 +56,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Length of last word](https://leetcode.com/problems/length-of-last-word/)
 
+-> [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)
+
 -> []()
