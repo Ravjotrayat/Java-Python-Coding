@@ -58,4 +58,4 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Jump Game VII](https://leetcode.com/problems/jump-game-vii/)
 
--> []()
+-> [Split Two Strings to Make Palindrome](https://leetcode.com/problems/split-two-strings-to-make-palindrome/description/)
