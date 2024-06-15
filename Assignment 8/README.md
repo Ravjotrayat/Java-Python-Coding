@@ -64,4 +64,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [Sentence Similarity III](https://leetcode.com/problems/sentence-similarity-iii/description/)
 
+-> [Repeated String Match](https://leetcode.com/problems/repeated-string-match/)
+
 -> []()
