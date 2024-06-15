@@ -66,4 +66,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [2Sum](https://leetcode.com/problems/two-sum/)
 
+-> [3Sum](https://leetcode.com/problems/3sum/)
+
 -> []()
