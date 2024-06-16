@@ -68,4 +68,6 @@ section and every solution contains the Leetcode question heading as well.
 
 -> [3Sum](https://leetcode.com/problems/3sum/)
 
+-> [Patching Array](https://leetcode.com/problems/patching-array/description/?envType=daily-question&envId=2024-06-16)
+
 -> []()
