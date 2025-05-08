@@ -74,4 +74,8 @@ Questions are arranged from Easy to Hard level.
 
 -> [3Sum Closest](https://leetcode.com/problems/3sum-closest/description/)
 
+-> [4Sum](https://leetcode.com/problems/4sum/description/)
+
+-> []()
+
 -> []()
