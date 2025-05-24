@@ -1,4 +1,4 @@
- import java.util.*;
+import java.util.*;
 public class Sum_till_x
 {   
    public static void main(String args[])
