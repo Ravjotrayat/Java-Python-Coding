@@ -14,8 +14,8 @@ class Solution(object):
 def main():
     nums=[1,2,3,4]
     solution=Solution()
-    reuslt=solution.runningSum(nums)
-    print(reuslt)
+    result=solution.runningSum(nums)
+    print(result)
     
 if __name__ == "__main__":
     main()
